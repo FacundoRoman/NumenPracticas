@@ -1,0 +1,40 @@
+body {
+    background-color: lightblue;
+}
+
+.titulo {
+    text-align: center;
+}
+
+form {
+    background-color: whitesmoke;
+    width: 400px;
+    padding: 15px;
+    margin-top: 50px;
+    margin-left: 33%;
+    border-radius: 2%;
+    box-shadow: rgba(0, 0, 0, 0.575) 4px 3px;
+}
+
+.info {
+    padding: 5px;
+    display: flex;
+    margin-left: 29%;
+    margin-bottom: 10px;
+    text-align: center;
+    border: solid;
+}
+
+.radio {
+    margin-left: 20%;
+    margin-bottom: 40px;
+}
+
+.archivo {
+    margin: 0px 0px 20px 45px;
+}
+
+.boton {
+    margin-left: 25%;
+    padding: 5px;
+}
