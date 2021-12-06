@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgba(241, 163, 241, 0.452);
+}
+
+.encabezado {
+    text-align: center;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-decoration: underline overline;
+}
+
+.titulo1 {
+    margin: 15px;
+    text-decoration: underline;
+}
+
+.titulo2{ 
+    margin: 15px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.titulo3 {
+    margin: 15px;
+    text-decoration: underline;
+}
+
+p {
+    max-width: 500px;
+}
+
+.texto1 {
+    color: tomato;
+}
+
+.texto2 {
+    text-align: center;
+    margin: auto;
+    color: rgb(121, 190, 17);
+}
+
+.texto3 {
+    color: tomato;
+}
