@@ -1,0 +1,152 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: linear-gradient(to bottom, rgb(222, 247, 255), rgba(0, 0, 255, 0.5));
+}
+
+.navegador {
+    background-color: darkblue;
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+li {
+    font-size: 20px;
+}
+
+li:hover {
+    color: violet;
+}
+
+a {
+    align-content: space-around;
+    text-decoration: none;
+    color: white;
+    margin: 30px;
+}
+
+.encabezado {
+    text-align: center;
+    margin: 20px;
+    font-family: 'Lora', serif;
+    font-size: 50px;
+    letter-spacing: 5px;
+    text-shadow: 7px 5px 5px rgba(128, 128, 128, 0.829);
+}
+
+.titulo1 {
+    margin: 15px;
+    text-decoration: underline;
+}
+
+.titulo2{ 
+    margin: 15px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.titulo3 {
+    margin: 15px;
+    text-decoration: underline;
+}
+
+p {
+    max-width: 500px;
+}
+
+p:hover {
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+    
+}
+
+.texto1 {
+    color: tomato;
+}
+
+.texto2 {
+    text-align: center;
+    margin: auto;
+    color: rgb(121, 190, 17);
+}
+
+.texto3 {
+    color: tomato;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.formtitle {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: whitesmoke;
+    width: 400px;
+    padding: 15px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    border-radius: 2%;
+    box-shadow: rgba(0, 0, 0, 0.575) 4px 3px;
+}
+
+.barra {
+    color: gold;
+}
+
+.flexible {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.info {
+    text-align: center;
+    border: solid;
+}
+
+#textarea {
+    width: 100%;
+}
+
+.boton {
+    margin-left: 25%;
+    padding: 5px;
+}
+
+footer {
+    background-color: rgb(56, 56, 56);
+    height: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+footer li {
+    margin: 3px;
+    font-size: 15px;
+    color: white;
+}
